@@ -9,14 +9,14 @@ function toggleMode() {
   // substituir a imagem
   if(html.classList.contains('light')) {
   // se tiver light mode, adcionar a imagem light
-    img.setAttribute("src", "./assets/assets/avatar-light.png");
-    img.setAttribute("alt", "Um cara de óculos. Com um fundo azul.")
+    img.setAttribute("src", "./assets/myAssets/1683120400715_.png")
+    img.setAttribute("alt", "Cacio Davi.")
   } else {
   // se tiver light mode, adcionar a imagem light
-    img.setAttribute("src", "./assets/assets/avatar.png");
+    img.setAttribute("src", "./assets/myAssets/1683120400715_.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e uma camisa preta, barba e fundo amarelo."
+      "Uma foto minha."
     )
 
   }
